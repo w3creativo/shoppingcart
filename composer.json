@@ -21,12 +21,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Darioup\\Shoppingcart\\": "src/"
+            "Gloudemans\\Shoppingcart\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Darioup\\Tests\\Shoppingcart\\": "tests/"
+            "Gloudemans\\Tests\\Shoppingcart\\": "tests/"
         }
     },
     "suggest": {
@@ -36,10 +36,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Darioup\\Shoppingcart\\ShoppingcartServiceProvider"
+                "Gloudemans\\Shoppingcart\\ShoppingcartServiceProvider"
             ],
             "aliases": {
-                "Cart": "Darioup\\Shoppingcart\\Facades\\Cart"
+                "Cart": "Gloudemans\\Shoppingcart\\Facades\\Cart"
             }
         }
     }
